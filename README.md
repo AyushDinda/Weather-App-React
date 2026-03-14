@@ -1,16 +1,101 @@
-# React + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌦️ Weather App
 
-Currently, two official plugins are available:
+A simple **Weather Application** built with **React** that fetches real-time weather data using a **Weather API**.
+Users can search for any city and view the current weather conditions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🌍 Search weather by city name
+* 🌡️ Displays temperature, humidity, and weather condition
+* ☁️ Shows weather icons based on conditions
+* ⚡ Real-time data using API
+* 📱 Responsive UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+**Frontend**
+
+* React.js
+* CSS
+
+**API**
+
+* Weather API (e.g., OpenWeatherMap)
+
+---
+
+## 📂 Project Structure
+
+```
+weather-app
+│
+├── src
+│   ├── components
+│   │   └── Weather.js
+│   │
+│   ├── App.js
+│   ├── index.js
+│   └── styles.css
+│
+├── public
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/weather-app.git
+cd weather-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## ▶️ Run the App
+
+Start the development server:
+
+```bash
+npm start
+```
+
+Open in browser:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🔑 API Setup
+
+1. Get an API key from a weather service (e.g., OpenWeatherMap).
+2. Add the API key in your code.
+
+Example:
+
+```javascript
+const API_KEY = "your_api_key_here";
+```
+
+---
+
+## 📜 License
+
+MIT License
